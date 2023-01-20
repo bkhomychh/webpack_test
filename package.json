@@ -6,7 +6,9 @@
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "start": "webpack-dev-server --mode=development --open",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "prepublish": "npm run deploy"
   },
   "browserslist": "> 0.05%, last 5 versions, not dead",
   "keywords": [],
