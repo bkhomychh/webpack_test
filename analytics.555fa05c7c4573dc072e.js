@@ -1,1 +1,0 @@
-window.analytics=function(){var n=0,e=!0,t=function(){n+=1,console.log("Clicks: "+c())};function c(){if(e)return n;console.log("Ops, there is no analytics")}return document.addEventListener("click",t),{getAnalytics:c,removeAnalytics:function(){document.removeEventListener("click",t),e=!1}}}();

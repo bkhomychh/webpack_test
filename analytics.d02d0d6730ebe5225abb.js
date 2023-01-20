@@ -1,0 +1,1 @@
+!function(){"use strict";window.analytics=function(){var n=0,t=!0,e=function(){n+=1,console.log("Clicks: "+c())};function c(){if(t)return n;console.log("Ops, there is no analytics")}return document.addEventListener("click",e),{getAnalytics:c,removeAnalytics:function(){document.removeEventListener("click",e),t=!1}}}()}();
