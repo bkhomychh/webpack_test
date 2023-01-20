@@ -119,3 +119,6 @@ module.exports = {
     ],
   },
 };
+
+/* var ghpages = require('gh-pages');
+ghpages.publish('dist', { src: './dist', branch: 'gh-pages', add: false, message: 'Updates' }); */
