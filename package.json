@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "start": "webpack-dev-server --mode=development --open",
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
-    "start": "webpack-dev-server --mode=development --open",
     "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build",
-    "prepublish": "npm run deploy"
+    "predeploy": "npm run build"
   },
   "browserslist": "> 0.05%, last 5 versions, not dead",
   "keywords": [],

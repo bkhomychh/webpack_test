@@ -1,3 +1,5 @@
+import './css/styles.scss';
+
 function createAnalytics() {
   let counter = 0;
   let isExisted = true;
