@@ -3,5 +3,7 @@
 Main commands: 
 
 npm install
+
 npm start
+
 npm deploy
